@@ -291,22 +291,66 @@ nav ul li a:hover{
     border-radius: 20px;
     cursor: pointer;
 }
+.week-deal{
+    display: contents;
+}
 
 /* --------------------contact-------------- */
 
+.cont-row{
+    display: flex;
+    justify-content: space-between;
+}
+.cont-form{
+    margin: 10px 40px;
+}
 form{
-    width: 80%;
+    width: 100%;
 }
 
 form input , textarea{
     display: inline-block;
-    width: 80%;
+    width: 100%;
     padding: 15px;
     background: #e0e0e0;
     color: rgb(0, 0, 0);
     font: 30px;
     font-family: 'Jost',sans-serif;
-    margin: 10px 10%;
+    margin: 10px;
     outline: none;
     border: 0;
+}
+
+.social{
+    margin-top: 40px;
+}
+
+.info p i{
+    margin-right: 10px;
+}
+
+.social i{
+    font-size: 40px;    
+    margin-right: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.fa-square-instagram{
+    color: rgb(255, 40, 129);
+}
+.fa-square-facebook{
+    color: rgb(11, 1, 148);
+}
+.fa-square-pinterest{
+    color: red; 
+}
+.fa-square-twitter{
+    color: rgb(0, 137, 216);
+}
+.fa-brands{
+    transition: background 0.3s, transform 0.3s;
+}
+.fa-brands:hover{
+    transform: translateY(-10px);
 }
