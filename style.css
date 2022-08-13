@@ -291,3 +291,22 @@ nav ul li a:hover{
     border-radius: 20px;
     cursor: pointer;
 }
+
+/* --------------------contact-------------- */
+
+form{
+    width: 80%;
+}
+
+form input , textarea{
+    display: inline-block;
+    width: 80%;
+    padding: 15px;
+    background: #e0e0e0;
+    color: rgb(0, 0, 0);
+    font: 30px;
+    font-family: 'Jost',sans-serif;
+    margin: 10px 10%;
+    outline: none;
+    border: 0;
+}
