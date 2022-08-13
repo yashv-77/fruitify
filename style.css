@@ -16,14 +16,13 @@ html{
 body{
     background: #fff;
 }
-.container{
-
+.head-container{
     padding: 10% 10%;
 }
 
 .top-most{
     display: flex;
-    margin:0 15%;
+    margin:0 10%;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -166,8 +165,10 @@ nav ul li a:hover{
     margin: 30px;
     /* border: #000 1px solid; */
 }
-.section{
+.container{
     padding: 50px 20%;
+}
+.section{ 
     /* border: #000 1px solid; */
     display: flex;
     flex-direction: column;
@@ -184,7 +185,8 @@ nav ul li a:hover{
 #sec-heading{
     /* text-align: center; */
     padding: 1px 0;
-    font-size: 45px;
+    font-size: 60px;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 #sec-para{
@@ -263,4 +265,29 @@ nav ul li a:hover{
     background: #e9e9e9;
     color: #ff3030;
     border: #ff3030 1px solid;
+}
+
+/* --------------services----------- */
+
+#offers{
+    margin: 30px0;
+}
+
+.offer-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.offers{
+    padding: 40px 0;
+    /* border: #000 1px solid; */
+    margin: 40px 0;
+}
+
+.offers img{
+    object-fit: contain;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
 }
