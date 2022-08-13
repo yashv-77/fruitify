@@ -69,6 +69,16 @@ nav ul li{
     color: #fc5d35;
 }
 
+.kart{
+    background: #00bd06;
+    color: white;
+    width: 60px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
 #search{
     cursor: pointer;
 }
